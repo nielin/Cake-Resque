@@ -27,6 +27,7 @@ use Resque;
 use Resque_Failure_Redis;
 use Resque_Job_Status;
 use Resque_Worker;
+use CakeResque\Error\Exception\ConfigureException;
 
 
 /**
